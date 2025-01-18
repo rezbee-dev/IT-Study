@@ -26,13 +26,13 @@ Enable SMTP on a small network
 
   - Desktop > Email
   - Fill in the fields with the following (PC1):
-    - Your Name: pc1
-    - email: pc1@smtplab.net
-    - incoming mail server: pc1@smtplab.net
-    - outgoing mail server: pc1@smtplab.net
-    - username: pc1
+    - Your Name: pc0
+    - email: pc0@smtplab.net
+    - incoming mail server: smtplab.net
+    - outgoing mail server: smtplab.net
+    - username: pc0
     - password: 123
-  - Do the same for PC2, except use "PC2"
+  - Do the same for PC1, except use "PC1"
 </details>
 
 <details>
@@ -45,8 +45,8 @@ Enable SMTP on a small network
     - POP3 Service: On
     - Domain Name: smtplab.net
     - User setup:
+      - user: pc0, password: 123
       - user: pc1, password: 123
-      - user: pc2, password: 123
 </details>
 
 <details>
