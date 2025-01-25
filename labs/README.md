@@ -10,7 +10,7 @@ This folder contains IT related exercises and their solutions
 **Setup IP Configuration on Router via Cisco IOS in Packet Tracer**
 - `enable`
 - `configure terminal`
-- `interface f0/0` or `interface g0/0` (check which one via `show interfaces`)
+- `interface f0/0` or `interface g0/0` (check which one via `show IP interface brief`)
 - `ip address 192.168.1.1 255.255.255.0`
 - `no shutdown`
 - `exit` 
