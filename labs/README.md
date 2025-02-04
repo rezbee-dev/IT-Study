@@ -7,7 +7,7 @@ This folder contains IT related exercises and their solutions
 
 ## Notes
 
-**Setup IP Configuration on Router via Cisco IOS in Packet Tracer**
+**Basic Router Setup via Cisco IOS in Packet Tracer**
 - `enable`
 - `configure terminal`
 - `interface f0/0` or `interface g0/0` (check which one via `show IP interface brief`)
@@ -15,6 +15,15 @@ This folder contains IT related exercises and their solutions
 - `no shutdown`
 - `exit` 
 
-**Setup IP Configuration on PC in Packet Tracer**
+**Basic IP Configuration Setup for PC in Packet Tracer**
 - Select PC > Desktop > IP Configuration
 - Set IP Address and Default Gateway (use router IP Address)
+
+**Misc**
+
+`show mac-address-table`
+- IOS command for switches that displays MAC addresses switch has learned (stored in CAM table)
+- Displays Vlan, Mac address, Type (dynamic, static?), and port number
+
+`ipconfig /all`
+- Windows command to view IP configuration information for device
